@@ -12,9 +12,15 @@
 	
 	/* Reset Styles */
 	body{margin:0; padding:0;}
-	img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+	img{border:0; outline:none; text-decoration:none;}
 	table td{border-collapse:collapse;}
 	#backgroundTable{height:100% !important; margin:0; padding:0; width:100% !important;}
+
+	a:link, a:visited, /* Yahoo! Mail Override */ a .yshortcuts /* Yahoo! Mail Override */{
+		color:#E36A22;
+		font-weight:normal;
+		text-decoration:underline;
+	}
 	
 	body, #backgroundTable{
 		background-color:#eaeaea;
@@ -96,12 +102,6 @@
 		vertical-align:middle;
 	}
 	
-	.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
-		color:#336699;
-		font-weight:normal;
-		text-decoration:underline;
-	}
-	
 	#headerImage{
 		height:auto;
 		max-width:560px;
@@ -118,12 +118,6 @@
 		font-size:14px;
 		line-height:150%;
 		text-align:left;
-	}
-	
-	.bodyContent div a:link, .bodyContent div a:visited, /* Yahoo! Mail Override */ .bodyContent div a .yshortcuts /* Yahoo! Mail Override */{
-		color:#336699;
-		font-weight:normal;
-		text-decoration:underline;
 	}
 	
 	.bodyContent img{
@@ -198,12 +192,6 @@
 		text-align:center;
 	}
 	
-	.footerContent div a:link, .footerContent div a:visited, /* Yahoo! Mail Override */ .footerContent div a .yshortcuts /* Yahoo! Mail Override */{
-		color:#336699;
-		font-weight:normal;
-		text-decoration:underline;
-	}
-	
 	.footerContent img{
 		display:inline;
 	}
@@ -214,11 +202,11 @@
 	<table border="0" cellpadding="20" cellspacing="0" height="100%" width="100%" id="backgroundTable">
     	<tr>
         	<td align="center" valign="top">
-            	<table border="0" cellpadding="0" cellspacing="0" width="560" id="templateContainer">
+            	<table border="0" cellpadding="0" cellspacing="0" width="568" id="templateContainer">
                 	<tr>
                     	<td align="center" valign="top">
                             <!-- // Begin Template Header \\ -->
-                        	<table border="0" cellpadding="0" cellspacing="0" width="560" id="templateHeader">
+                        	<table border="0" cellpadding="0" cellspacing="0" width="568" id="templateHeader">
                                 <tr>
                                     <td valign="middle" class="headerContent">
                                     
@@ -235,9 +223,10 @@
                 	<tr>
                     	<td align="center" valign="top">
                             <!-- // Begin Template Body \\ -->
-                        	<table border="0" cellpadding="0" cellspacing="0" width="560" id="templateBody">
+                        	<table border="0" cellpadding="0" cellspacing="0" width="568" id="templateBody">
                             	<tr>
-                                    <td valign="top" class="bodyContent">
+                            		<td valign="top" width="4"><img src="http://www.harker.org/uploaded/themes/enotify-2012/images/dropshadow-left.gif" width="4" height="100%" /></td>
+                                    <td valign="top" class="bodyContent" width="560">
 
                                     	<table border="0" cellpadding="0" cellspacing="0" width="560" >
 			                            	<tr>
@@ -487,15 +476,21 @@
 			                            </table>
 
                                     </td>
+                                    <td valign="top" width="4"><img src="http://www.harker.org/uploaded/themes/enotify-2012/images/dropshadow-right.gif" width="4" height="100%" /></td>
                                 </tr>
                             </table>
                             <!-- // End Template Body \\ -->
                         </td>
                     </tr>
+                    <tr>
+                    	<td align="center" valign="top" height="7">
+                    		<img src="http://www.harker.org/uploaded/themes/enotify-2012/images/dropshadow-bottom.gif" width="568" height="7" style="display:block;" />
+                    	</td>
+                    </tr>
                 	<tr>
                     	<td align="center" valign="top">
                             <!-- // Begin Template Footer \\ -->
-                        	<table border="0" cellpadding="10" cellspacing="0" width="560" id="templateFooter">
+                        	<table border="0" cellpadding="10" cellspacing="0" width="568" id="templateFooter">
                             	<tr>
                                 	<td valign="top" class="footerContent">
                                     
