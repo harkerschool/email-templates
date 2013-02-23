@@ -1,177 +1,36 @@
-<style type="text/css">
-	/* Client-specific Styles */
-	#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" button. */
-	body{width:100% !important;} .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
-	body{-webkit-text-size-adjust:none;} /* Prevent Webkit platforms from changing default text sizes. */
-	
-	/* Reset Styles */
-	body{margin:0; padding:0;}
-	img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
-	table td{border-collapse:collapse;}
-	#backgroundTable{height:100% !important; margin:0; padding:0; width:100% !important;}
-	
-	body, #backgroundTable{
-		background-color:#eaeaea;
-	}
-	
-	#templateContainer{
-		border: none;
-	}
-	
-	h1, .h1{
-		color:#202020;
-		display:block;
-		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-		font-size:34px;
-		font-weight:bold;
-		line-height:100%;
-		margin-top:0;
-		margin-right:0;
-		margin-bottom:10px;
-		margin-left:0;
-		text-align:left;
-	}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-	h2, .h2{
-		color:#202020;
-		display:block;
-		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-		font-size:30px;
-		font-weight:bold;
-		line-height:100%;
-		margin-top:0;
-		margin-right:0;
-		margin-bottom:10px;
-		margin-left:0;
-		text-align:left;
-	}
+<title>Postcard Template</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<style>
+.postcardBorder {
+	background: #ffffff;
+	border: 3px solid #cccccc;
+}
 
-	h3, .h3{
-		color:#202020;
-		display:block;
-		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-		font-size:26px;
-		font-weight:bold;
-		line-height:100%;
-		margin-top:0;
-		margin-right:0;
-		margin-bottom:10px;
-		margin-left:0;
-		text-align:left;
-	}
+.postcardContent {
+	background-color:#D9E2EB;
+}
 
-	h4, .h4{
-		color:#202020;
-		display:block;
-		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-		font-size:22px;
-		font-weight:bold;
-		line-height:100%;
-		margin-top:0;
-		margin-right:0;
-		margin-bottom:10px;
-		margin-left:0;
-		text-align:left;
-	}
-	
-	#templateHeader{
-		background-color:#eaeaea;
-		border-bottom:0;
-	}
-	
-	.headerContent{
-		color:#202020;
-		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-		font-size:34px;
-		font-weight:bold;
-		line-height:100%;
-		padding:0;
-		text-align:center;
-		vertical-align:middle;
-	}
-	
-	.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
-		color:#336699;
-		font-weight:normal;
-		text-decoration:underline;
-	}
-	
-	#headerImage{
-		height:auto;
-		max-width:560px;
-		width:560px;
-	}
-	
-	#templateContainer, .bodyContent{
-		background-color:#dadada;
-	}
-	
-	.bodyContent div{
-		color:#505050;
-		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-		font-size:14px;
-		line-height:150%;
-		text-align:left;
-	}
-	
-	.bodyContent div a:link, .bodyContent div a:visited, /* Yahoo! Mail Override */ .bodyContent div a .yshortcuts /* Yahoo! Mail Override */{
-		color:#336699;
-		font-weight:normal;
-		text-decoration:underline;
-	}
-	
-	.bodyContent img{
-		display:inline;
-		height:auto;
-	}
+#edgeLeft div {
+	text-align:left;
+}
 
-	.postcardBorder {
-		background: #ffffff;
-		border: 3px solid #cccccc;
-	}
+#postcardText div {
+	text-align:center;
+	color: #4f4f4f;
+	font-size: 16px;
+}
 
-	.postcardContent {
-		background-color:#D9E2EB;
-	}
-
-	#edgeLeft div {
-		text-align:left;
-	}
-
-	#postcardText div {
-		text-align:center;
-		color: #4f4f4f;
-		font-size: 16px;
-	}
-
-	#edgeRight div {
-		text-align:right;
-	}
-	
-	#templateFooter{
-		background-color:#eaeaea;
-		border-top:0;
-	}
-	
-	.footerContent div{
-		color:#4f4f4f;
-		font-family:Georgia, Times, "Times New Roman", serif;
-		font-size:12px;
-		line-height:125%;
-		text-align:center;
-	}
-	
-	.footerContent div a:link, .footerContent div a:visited, /* Yahoo! Mail Override */ .footerContent div a .yshortcuts /* Yahoo! Mail Override */{
-		color:#336699;
-		font-weight:normal;
-		text-decoration:underline;
-	}
-	
-	.footerContent img{
-		display:inline;
-	}
+#edgeRight div {
+	text-align:right;
+}
 </style>
-
+<body>
 <center>
 	<table border="0" cellpadding="20" cellspacing="0" height="100%" width="100%" id="backgroundTable">
     	<tr>
@@ -297,3 +156,5 @@
         </tr>
     </table>
 </center>
+</body>
+</html>
