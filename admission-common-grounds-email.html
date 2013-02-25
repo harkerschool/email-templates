@@ -1,0 +1,375 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Special Event</title>
+<style type="text/css">
+	/* Client-specific Styles */
+	#outlook a { padding: 0; } /* Force Outlook to provide a "view in browser" button. */
+	body { width: 100% !important; }
+	.ReadMsgBody { width: 100%; }
+	.ExternalClass { width: 100%; } /* Force Hotmail to display emails at full width */
+	body { -webkit-text-size-adjust: none; } /* Prevent Webkit platforms from changing default text sizes. */
+	/* Reset Styles */
+	body {
+	    margin: 0;
+	    padding: 0; }
+	img {
+	    border: 0;
+	    outline: none;
+	    text-decoration: none; }
+	table td { border-collapse: collapse; }
+	#backgroundTable {
+	    height: 100% !important;
+	    margin: 0;
+	    padding: 0;
+	    width: 100% !important; }
+	a:link, a:visited, a .yshortcuts {
+	    color: #E36A22;
+	    font-weight: normal;
+	    text-decoration: underline; }
+	body, #backgroundTable { background-color: #eaeaea; }
+	#templateContainer { border: none; }
+	h1, .h1{
+		color:#202020;
+		display:block;
+		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+		font-size:36px;
+		font-weight:bold;
+		line-height:100%;
+		margin-top:0;
+		margin-right:0;
+		margin-bottom:10px;
+		margin-left:0;
+		text-align:left;
+	}
+
+	h2, .h2{
+		color:#202020;
+		display:block;
+		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+		font-size:22px;
+		font-weight:bold;
+		line-height:100%;
+		margin-top:0;
+		margin-right:0;
+		margin-bottom:10px;
+		margin-left:0;
+		text-align:left;
+	}
+
+	h3, .h3{
+		color:#202020;
+		display:block;
+		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+		font-size:20px;
+		font-weight:bold;
+		line-height:100%;
+		margin-top:0;
+		margin-right:0;
+		margin-bottom:10px;
+		margin-left:0;
+		text-align:left;
+	}
+
+	h4, .h4{
+		color:#202020;
+		display:block;
+		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+		font-size:16px;
+		font-weight:bold;
+		line-height:100%;
+		margin-top:0;
+		margin-right:0;
+		margin-bottom:10px;
+		margin-left:0;
+		text-align:left;
+	}
+	#templateHeader {
+	    background-color: #eaeaea;
+	    border-bottom: 0; }
+	.headerContent {
+	    color: #202020;
+	    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	    font-size: 34px;
+	    font-weight: bold;
+	    line-height: 100%;
+	    padding: 0;
+	    text-align: center;
+	    vertical-align: middle; }
+	.headerContent a:link, .headerContent a:visited, .headerContent a .yshortcuts {
+	    color: #336699;
+	    font-weight: normal;
+	    text-decoration: underline; }
+	#headerImage { width: 560px; }
+	.bodyContent {
+		background-color:#d8d8d8;
+	}
+	
+	.bodyContent div{
+		color:#282828;
+		font-family:Georgia, Times, "Times New Roman", serif;
+		font-size:14px;
+		line-height:150%;
+		text-align:left;
+	}
+	.bodyContent div.signatureName {
+		font-size: 24px; 
+		line-height: 100%
+	}
+	.bodyContent div.signatureTitle, .bodyContent div.signatureContact {
+		color: #595959;
+		font-size: 12px;
+	}
+	
+	.bodyContent img{
+		display:inline;
+	}
+
+	.note{
+		font-size:16px;
+		font-style:italic;
+		margin-bottom: 10px;
+	}
+
+	.article{
+		border-top:1px dashed #aeaeae;
+	}
+	.bodyContent .quote {
+	    margin: 20px 0 20px 40px;
+	    border-left: 1px solid #a3a3a3;
+	    padding: 20px;
+	    color: #595959;
+	    font-style: italic; }
+	.bodyContent .quote p {
+	    color: #595959;
+	    font-style: italic; }
+	.bodyContent div {
+	    color: #282828;
+	    font-family: Georgia, Times, "Times New Roman", serif;
+	    font-size: 14px;
+	    line-height: 150%;
+	    text-align: left; }
+	.bodyContent img {
+	    display: inline;
+	    height: auto; }
+	.bodyContent p {
+	    color: #282828;
+	    font-family: Georgia, Times, "Times New Roman", serif;
+	    font-size: 14px;
+	    line-height: 150%;
+	    text-align: left;
+	    margin: 0 0 10px; }
+	#signature div { font-family: Georgia, Times, "Times New Roman", serif; }
+	#signature .signatureTitle, #signature .signatureContact {
+	    font-size: 12px;
+	    color: #595959; }
+	#signature .signatureName {
+	    color: #282828;
+	    font-size: 36px;
+	    line-height: 100%; }
+	#signature .signatureContact { font-style: italic; }
+
+	.templateButton, .templateButtonAlt {
+		-moz-border-radius:3px;
+		-webkit-border-radius:3px;border:0;
+		border-collapse:separate !important;
+		border-radius:3px;
+	}
+	.templateButton a, .templateButtonAlt a {
+		color: #ffffff;
+		text-decoration: none;
+	}
+	.templateButton{
+		background-color:#d51920;
+	}
+	.templateButtonAlt{
+		background-color:#3eb5c7;
+	}
+
+	.templateButton, .templateButton div, .templateButton div a:link, .templateButton div a:visited, .templateButton a .yshortcuts, .templateButtonAlt, .templateButtonAlt div, .templateButtonAlt div a:link, .templateButtonAlt div a:visited, .templateButtonAlt a .yshortcuts {
+		color:#FFFFFF;
+		font-family: Arial;
+		font-size:15px;
+		font-weight:bold;
+		letter-spacing:-.5px;
+		line-height:100%;
+		text-align:center;
+		text-decoration:none;
+	}
+
+	#templateFooter {
+	    background-color: #eaeaea;
+	    border-top: 0; }
+	.footerContent div {
+	    color: #4f4f4f;
+	    font-family: Georgia, Times, "Times New Roman", serif;
+	    font-size: 12px;
+	    line-height: 125%;
+	    text-align: center; }
+	.footerContent img { display: inline; }
+</style>
+</head>
+<body>
+<center>
+	<table border="0" cellpadding="20" cellspacing="0" height="100%" width="100%" id="backgroundTable">
+    	<tr>
+        	<td align="center" valign="top">
+            	<table border="0" cellpadding="0" cellspacing="0" width="  " id="templateContainer">
+                	<tr>
+                    	<td align="center" valign="top">
+                            <!-- // Begin Template Header \\ -->
+                        	<table border="0" cellpadding="0" cellspacing="0" width="568" id="templateHeader">
+                                <tr>
+                                    <td valign="middle" class="headerContent">
+                                    
+                                    	<!-- // Begin Module: Standard Header Image \\ -->
+                                    	<a href="http://www.harker.org/"><img src="http://www.harker.org/uploaded/themes/enotify-2012/images/harker-email-logo.png" alt="The Harker School" id="headerImage" style="width:560px;height:52px;" width="560" height="52" /></a>
+                                    	<!-- // End Module: Standard Header Image \\ -->
+                                    
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- // End Template Header \\ -->
+                        </td>
+                    </tr>
+                	<tr>
+                    	<td align="center" valign="top">
+                            <!-- // Begin Template Body \\ -->
+                        	<table border="0" cellpadding="0" cellspacing="0" width="568" id="templateBody">
+                            	<tr>
+                            		<td valign="top" width="4"><img src="http://www.harker.org/uploaded/themes/enotify-2012/images/dropshadow-left.gif" width="4" height="100%" /></td>
+                                    <td valign="top" class="bodyContent" width="560">
+
+                                    	<table border="0" cellpadding="0" cellspacing="0" width="560" >
+			                            	<tr>
+			                                    <td valign="top">
+			                                    	<!-- // Begin Template Secondary Header \\ -->
+						                        	<table border="0" cellpadding="0" cellspacing="0" width="560">
+						                                <tr>
+						                                    <td class="headerContent">
+						                                    
+						                                    	<!-- // Begin Module: Standard Header Image \\ -->
+				                                            	<img src="http://www.harker.org/uploaded/assets/graphics/enotify/admission/header-common-grounds-special-invite-us.jpg" alt="A special update regarding the preschool at Harker" style="width:560px;height:140px;" width="560" height="140" />
+				                                            	<!-- // End Module: Standard Header Image \\ -->
+						                                    
+						                                    </td>
+						                                </tr>
+						                            </table>
+						                            <!-- // End Template Secondary Header \\ -->
+			                                    </td>
+			                                </tr>
+			                                <tr>
+			                                    <td valign="top">
+						                        	<table border="0" cellpadding="0" cellspacing="0" width="560">
+						                                <tr>
+						                                    <td valign="top">
+						                                    	<!-- // Begin Template Body \\ -->  
+							                                	<table border="0" cellpadding="0" cellspacing="0" width="100%">
+							                                    	<tr>
+							                                        	<td valign="top" width="560">
+							                                        		<!-- // Begin Module: Feature Article \\ -->
+	                                                                        <table border="0" cellpadding="20" cellspacing="0" width="100%">
+	                                                                            <tr>
+	                                                                                <td valign="top">
+	 						                                                            <div>
+	 						                                                            	Happy Friday!
+																							<br>
+																							<br>
+																							We appreciate your interest in Harker, and look forward to helping you in the exciting journey of choosing a great school for your child!
+																							<br>
+																							<br>
+																							We invite you to be our guest for a wonderful speaker event coming up next week. Harker is a member school of The Common Ground Speaker Series, a parent education consortium that presents thought leaders in parenting, education and health at venues on the San Francisco Peninsula. Read more about <a href="http://www.commongroundspeakerseries.org/about/">the Common Ground Speaker Series</a>.
+																							<br>
+																							<br>
+																							The hosting of these events rotates among the member schools (we hosted the <a href="http://bit.ly/WVNlL0">amazing John Hunter in October</a>), and this month's speaker may be of interest to you:
+																							<br>
+																							<br>
+																							<div class="article">
+																							<br>
+																							<h3 class="h3">Madeline Levine, Ph.D.</h3>
+																							<h4 class="h4">Wed., Jan. 30, 7pm</h4>
+																							<strong>Shift The Focus<br>
+																							Parenting for Authentic Success</strong><br><br>
+																							<i>Hosting School: Saint Andrews Episcopal School, 13601 Saratoga Ave., Saratoga</i>
+																							<br>
+																							<br>
+																							Dr. Madeline Levine is a lecturer, author and psychologist with over 30 years ofexperience working with children and adolescents. She has seen firsthand the effects of our fast-paced, high-pressure world andchallenges parents to create a healthier family life. She acknowledges the temptation to hyper-parent and offers concrete examples of parenting styles that protect children while encouraging both academic success and emotional well-being. Dr. Levine’s books include the newly-released “Teach Your Children Well: Parenting for Authentic Success” and the New York Times bestseller, “The Price of Privilege.”You can read a bit more about her on <a href="http://madelinelevine.com/">her website</a>.
+																							<br>
+																							&nbsp;
+																							</div>
+																							<div class="article">
+																							<br>
+																							We'll be attending and would be honored to host you and your family or friends. If you're interested in attending, just let me know!
+																							<br>
+																							<br>
+																							Have a great weekend!
+																							<br>
+																							<br>
+																							<div>
+												                                                <div class="signatureName">Nan Nielsen</div>
+												                                                <div class="signatureTitle">Director of Admission</div>
+												                                                <div class="signatureContact">Email: <a href="mailto:nann@harker.org">nann@harker.org</a></div>
+                                              												</div>
+ 						                                                            	</div>
+	                                                                                </td>
+	                                                                            </tr>
+	                                                                        </table>
+	                                                                        <!-- // End Module: Feature Article \\ -->  
+							                                            </td>
+							                                        </tr>
+							                                    </table>
+							                                    <!-- // End Template Body \\ -->            
+						                                    </td>
+						                                </tr>
+						                            </table>
+			                                    </td>
+			                                </tr>
+			                            </table>
+
+                                    </td>
+                                    <td valign="top" width="4"><img src="http://www.harker.org/uploaded/themes/enotify-2012/images/dropshadow-right.gif" width="4" height="100%" /></td>
+                                </tr>
+                            </table>
+                            <!-- // End Template Body \\ -->
+                        </td>
+                    </tr>
+                    <tr>
+                    	<td align="center" valign="top" height="7">
+                    		<img src="http://www.harker.org/uploaded/themes/enotify-2012/images/dropshadow-bottom.gif" width="568" height="7" style="display:block;" />
+                    	</td>
+                    </tr>
+                	<tr>
+                    	<td align="center" valign="top">
+                            <!-- // Begin Template Footer \\ -->
+                        	<table border="0" cellpadding="10" cellspacing="0" width="568" id="templateFooter">
+                            	<tr>
+                                	<td valign="top" class="footerContent">
+                                    
+                                        <!-- // Begin Module: Standard Footer \\ -->
+                                        <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                                            <tr>
+                                                <td valign="top">
+                                                    <div>															
+                                                    <a href="mailto:communications@harker.org">communications@harker.org</a> | 500 Saratoga Ave., San Jose, CA 95129 | <a href="http://www.harker.org">www.harker.org</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <!-- // End Module: Standard Footer \\ -->
+                                    
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- // End Template Footer \\ -->
+                        </td>
+                    </tr>
+                </table>
+                <br />
+            </td>
+        </tr>
+    </table>
+</center>
+</body>
+</html>
