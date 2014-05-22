@@ -94,8 +94,8 @@ h4, .h4{
 
 .headerContent{
 	color:#202020;
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	font-size:8px;
+	font-family: Georgia, serif;
+	font-size:24px;
 	font-weight:bold;
 	line-height:100%;
 	padding:0;
@@ -110,7 +110,7 @@ h4, .h4{
 }
 
 .bodyContent {
-	background-color:#d8d8d8;
+	background-color:#ffffff;
 }
 
 .bodyContent div, .bodyContent div td {
@@ -213,6 +213,7 @@ h4, .h4{
 
 #templateSidebar .templateButton div {
 	text-align: center;
+	line-height: 100%;
 }
 
 #templateFooter{

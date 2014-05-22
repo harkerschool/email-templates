@@ -1,3 +1,11 @@
-images/
-_notes/
 messages/
+
+# Ignore other unneeded files.
+database.yml
+doc/
+*.swp
+*~
+.project
+.DS_Store
+.idea
+.secret
